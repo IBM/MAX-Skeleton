@@ -36,8 +36,13 @@ public object storage bucket and the name of the file containing the serialized 
     ARG model_bucket=
     ARG model_file=
 
-Then, add the MD5 hashes of the files that will be downloaded to `md5sums.txt`. Note: the hashes should be of the files
-after any extraction (eg after un-taring or un-ziping).
+Then, calculate and add the MD5 hashes of the files that will be downloaded to `md5sums.txt`. Note: the hashes should be
+of the files after any extraction (eg after un-taring or un-ziping).
+
+To calculate the MD5 sum of a file run:
+```
+$ md5sum <FILE NAME>
+```
 
 ### 3. Import the model in `core/model.py`
 
@@ -108,7 +113,8 @@ max.run()
 
 ### 6. Add integration tests
 
-Add a few integration tests using `pytest` in `tests/test.py` to check that your model works.
+Add a few integration tests using `pytest` in `tests/test.py` to check that your model works. To enable Travis CI
+testing uncomment the `docker` commands and `pytest` command in `.travis.yml`.
 
 ### 7. Add requirements
 

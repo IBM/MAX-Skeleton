@@ -5,6 +5,7 @@ from config import DEFAULT_MODEL_PATH
 
 logger = logging.getLogger()
 
+
 class ModelWrapper(MAXModelWrapper):
 
     MODEL_META_DATA = {

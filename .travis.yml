@@ -4,10 +4,11 @@ python:
 services:
   - docker
 install:
-  - docker build -t max-model .
-  - docker run -it -d --rm -p 5000:5000 max-model
+  # - docker build -t max-model .
+  # - docker run -it -d --rm -p 5000:5000 max-model
+  - pip install pytest requests flake8
 before_script:
-  - pip install pytest requests
   - sleep 30
 script:
-  - pytest tests/test.py
+  - flake8 . --max-line-length=127
+  # - pytest tests/test.py

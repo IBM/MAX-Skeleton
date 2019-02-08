@@ -1,5 +1,4 @@
 from core.model import ModelWrapper
-
 from maxfw.core import MAX_API, PredictAPI
 from flask_restplus import fields
 from werkzeug.datastructures import FileStorage
@@ -21,6 +20,7 @@ predict_response = MAX_API.model('ModelPredictResponse', {
     'status': fields.String(required=True, description='Response status message'),
     'predictions': fields.List(fields.Nested(label_prediction), description='Predicted labels and probabilities')
 })
+
 
 class ModelPredictAPI(PredictAPI):
 
