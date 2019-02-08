@@ -109,7 +109,8 @@ max.run()
 
 ### 6. Add integration tests
 
-Add a few integration tests using `pytest` in `tests/test.py` to check that your model works.
+Add a few integration tests using `pytest` in `tests/test.py` to check that your model works. To enable Travis CI
+testing uncomment the `docker` commands and `pytest` command in `.travis.yml`.
 
 ### 7. Add requirements
 
