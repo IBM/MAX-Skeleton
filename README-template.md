@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/IBM/[MODEL REPO NAME].svg?branch=master)](https://travis-ci.com/IBM/[MODEL REPO NAME]) [![Website Status](https://img.shields.io/website/http/[MODEL DOCKER TAG].max.us-south.containers.appdomain.cloud/swagger.json.svg?label=api+demo)](http://[MODEL DOCKER TAG].max.us-south.containers.appdomain.cloud/)
+
 # IBM Developer Model Asset Exchange: [MODEL NAME]
 
 > This file contains the README template for a new model for Model Asset Exchange.
