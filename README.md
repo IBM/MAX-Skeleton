@@ -151,3 +151,12 @@ Use the `model/predict` endpoint to load a test file and get a response from the
 ```
 $ curl -F "file=@<INPUT_FILE_PATH>" -XPOST http://localhost:5000/model/predict
 ```
+
+### 4. Run the Test Cases
+
+Install test required packages and run tests using `pytest`:
+
+```
+$ pip install -r requirements-test.txt
+$ pytest tests/test.py
+```
