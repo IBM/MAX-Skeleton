@@ -26,8 +26,8 @@ class ModelWrapper(MAXModelWrapper):
 
         logger.info('Loaded model')
 
-    def _pre_process(self, input):
-        return input
+    def _pre_process(self, inp):
+        return inp
 
     def _post_process(self, result):
         return result
