@@ -68,9 +68,10 @@ class ModelWrapper(MAXModelWrapper):
     }
 
     def __init__(self, path=DEFAULT_MODEL_PATH):
+        pass
 
-    def _pre_process(self, input):
-        return input
+    def _pre_process(self, inp):
+        return inp
 
     def _post_process(self, result):
         return result
