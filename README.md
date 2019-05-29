@@ -17,7 +17,7 @@ Clone the `MAX-skeleton` repository locally. In a terminal run the following com
 
     $ git clone https://github.com/IBM/MAX-Skeleton
 
-The project files are structured into 3 main parts: model, api, and assets. The `model` directory will contain code used for loading the model and running the predictions. The `api` directory contains code to handle the inputs and outputs of the MAX microservice. The `assets` directory will contain data assets such as sample data for the user to try the service on.
+The project files are structured into 4 main parts: model, api, assets, and samples. The `model` directory will contain code used for loading the model and running the predictions. The `api` directory contains code to handle the inputs and outputs of the MAX microservice. The `assets` directory will contain model assets and notebooks, whereas the `samples` directory will contain sample data for the user to try the service on.
 
 Example:
 ```
