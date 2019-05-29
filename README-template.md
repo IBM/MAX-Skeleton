@@ -73,7 +73,9 @@ $ kubectl apply -f https://github.ibm.com/CODAIT/[MODEL REPO NAME]/raw/master/[M
 
 The model will be available internally at port `5000`, but can also be accessed externally through the `NodePort`.
 
-[<img src="docs/deploy-max-to-ibm-cloud-with-kubernetes-button.png" width='400px'>](https://developer.ibm.com/tutorials/deploy-max-models-to-ibm-cloud-with-kubernetes/)
+For a more elaborate tutorial on how to deploy this MAX model to production on IBM Cloud, please click the button below.
+
+[<img src="docs/deploy-max-to-ibm-cloud-with-kubernetes-button.png" width='400px'>](http://ibm.biz/max-to-ibm-cloud-tutorial)
 
 ## Run Locally
 
