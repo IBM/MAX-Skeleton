@@ -1,21 +1,14 @@
 from maxfw.model import MAXModelWrapper
 
 import logging
-from config import DEFAULT_MODEL_PATH
+from config import DEFAULT_MODEL_PATH, MODEL_META_DATA as model_meta
 
 logger = logging.getLogger()
 
 
 class ModelWrapper(MAXModelWrapper):
 
-    MODEL_META_DATA = {
-        'id': 'ID',
-        'name': 'MODEL NAME',
-        'description': 'DESCRIPTION',
-        'type': 'MODEL TYPE',
-        'source': 'MODEL SOURCE',
-        'license': 'LICENSE'
-    }
+    MODEL_META_DATA = model_meta
 
     def __init__(self, path=DEFAULT_MODEL_PATH):
         logger.info('Loading model from: {}...'.format(path))
