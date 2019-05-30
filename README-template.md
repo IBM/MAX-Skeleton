@@ -25,6 +25,19 @@ as part of the [IBM Developer Model Asset Exchange](https://developer.ibm.com/ex
 | ------------- | --------  | -------- | --------- | --------- | -------------- | 
 | [INSERT DOMAIN] | [INSERT APPLICATION] | [INSERT INDUSTRY] | [INSERT FRAMEWORK] | [INSERT TRAINING DATA] | [INSERT INPUT DATA FORMAT] |
 
+## Benchmark
+
+The predictive performance of the model can be characterized by the benchmark table below.
+
+_Note: The performance of a model is not the only significant metric. The level of bias and fairness incorporated in the model are also of high importance. Learn more by reading up on the [AI Fairness 360 open source toolkit](http://ibm.biz/AI_Fairness_360)._
+
+
+
+|  | [DATASET 1] | [DATASET 2]   | [DATASET 3]  |
+| -------- | --------  | -------- | --------- |
+| [METRIC 1] | [VALUE] | [VALUE] | [VALUE] |
+| [METRIC 2] | [VALUE] | [VALUE] | [VALUE] |
+
 ## References
 
 > This section should include links to relevant papers, github repos and dataset home pages. Please follow the standard format for references.
