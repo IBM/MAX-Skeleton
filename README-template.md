@@ -75,7 +75,7 @@ The model will be available internally at port `5000`, but can also be accessed 
 
 For a more elaborate tutorial on how to deploy this MAX model to production on IBM Cloud, please click the button below.
 
-<img src="docs/deploy-max-to-ibm-cloud-with-kubernetes-button.png" width="400px" href="http://ibm.biz/max-to-ibm-cloud-tutorial">
+[<img src="docs/deploy-max-to-ibm-cloud-with-kubernetes-button.png" width="400px">](http://ibm.biz/max-to-ibm-cloud-tutorial)
 
 ## Run Locally
 
