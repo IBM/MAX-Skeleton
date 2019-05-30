@@ -77,6 +77,8 @@ For a more elaborate tutorial on how to deploy this MAX model to production on I
 
 [<img src="docs/deploy-max-to-ibm-cloud-with-kubernetes-button.png" width="400px" href="http://ibm.biz/max-to-ibm-cloud-tutorial">](http://ibm.biz/max-to-ibm-cloud-tutorial)
 
+<a href="http://ibm.biz/max-to-ibm-cloud-tutorial"><img src="docs/deploy-max-to-ibm-cloud-with-kubernetes-button.png" width="400px"></a>
+
 ## Run Locally
 
 1. [Build the Model](#1-build-the-model)
