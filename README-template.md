@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.com/IBM/[MODEL REPO NAME].svg?branch=master)](https://travis-ci.com/IBM/[MODEL REPO NAME]) [![Website Status](https://img.shields.io/website/http/[MODEL DOCKER TAG].max.us-south.containers.appdomain.cloud/swagger.json.svg?label=api+demo)](http://[MODEL DOCKER TAG].max.us-south.containers.appdomain.cloud/)
 
+[<img src="docs/deploy-max-to-ibm-cloud-with-kubernetes-button.png" width="400px">](http://ibm.biz/max-to-ibm-cloud-tutorial)
+
 # IBM Developer Model Asset Exchange: [MODEL NAME]
 
 > This file contains the README template for a new model for Model Asset Exchange.
@@ -73,9 +75,7 @@ $ kubectl apply -f https://github.ibm.com/CODAIT/[MODEL REPO NAME]/raw/master/[M
 
 The model will be available internally at port `5000`, but can also be accessed externally through the `NodePort`.
 
-For a more elaborate tutorial on how to deploy this MAX model to production on IBM Cloud, please click the button below.
-
-[<img src="docs/deploy-max-to-ibm-cloud-with-kubernetes-button.png" width="400px">](http://ibm.biz/max-to-ibm-cloud-tutorial)
+A more elaborate tutorial on how to deploy this MAX model to production on [IBM Cloud](https://ibm.biz/Bdz2XM) can be found [here](http://ibm.biz/max-to-ibm-cloud-tutorial)
 
 ## Run Locally
 
