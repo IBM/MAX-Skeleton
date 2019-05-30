@@ -18,7 +18,7 @@ This repository contains code to instantiate and deploy a [MODEL NAME].
 The model is based on the [ADD OPEN SOURCE MODEL]([LINK TO MODEL]). The model files are hosted on
 [IBM Cloud Object Storage]([LINK TO SPECIFIC SOFTLAYER LOCATION]).
 The code in this repository deploys the model as a web service in a Docker container. This repository was developed
-as part of the [IBM Developer Model Asset Exchange](https://developer.ibm.com/exchanges/models/).
+as part of the [IBM Developer Model Asset Exchange](https://developer.ibm.com/exchanges/models/) and the public API is powered by [IBM Cloud](https://ibm.biz/Bdz2XM).
 
 ## Model Metadata
 | Domain | Application | Industry  | Framework | Training Data | Input Data Format |
@@ -75,7 +75,7 @@ $ kubectl apply -f https://github.ibm.com/CODAIT/[MODEL REPO NAME]/raw/master/[M
 
 The model will be available internally at port `5000`, but can also be accessed externally through the `NodePort`.
 
-A more elaborate tutorial on how to deploy this MAX model to production on [IBM Cloud](https://ibm.biz/Bdz2XM) can be found [here](http://ibm.biz/max-to-ibm-cloud-tutorial)
+A more elaborate tutorial on how to deploy this MAX model to production on [IBM Cloud](https://ibm.biz/Bdz2XM) can be found [here](http://ibm.biz/max-to-ibm-cloud-tutorial).
 
 ## Run Locally
 
