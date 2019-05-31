@@ -8,7 +8,7 @@ Most sections that need to be updated are either marked in brackets or reference
 Some helpful hints are also included in comment blocks like this one. Please remember to delete the 
 comment blocks before publishing.
 
-> Don't forget to update `assets/README.md` as well.
+> Don't forget to update `assets/README.md` and `samples/README.md` as well.
 
 This repository contains code to instantiate and deploy a [MODEL NAME].
 [ADD A DESCRIPTION OF THE MODEL HERE - see other MAX models for examples]
@@ -37,7 +37,7 @@ as part of the [IBM Developer Model Asset Exchange](https://developer.ibm.com/ex
 | This repository | [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) | [LICENSE](LICENSE) |
 | Model Weights | [LINK TO LICENSE] | [LINK TO LICENSE IN SOURCE] |
 | Model Code (3rd party) | [LINK TO LICENSE] | [LINK TO LICENSE IN SOURCE] |
-| Test assets | [LINK TO LICENSE] | [Asset README](assets/README.md) |
+| Test samples | [LINK TO LICENSE] | [samples README](samples/README.md) |
 
 ## Pre-requisites:
 

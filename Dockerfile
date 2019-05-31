@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FROM codait/max-base:v1.1.1
+FROM codait/max-base:v1.1.3
 
 # Fill in these with a link to the bucket containing the model and the model file name
 # ARG model_bucket=
