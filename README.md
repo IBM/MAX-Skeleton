@@ -161,3 +161,12 @@ Install test required packages and run tests using `pytest`:
 $ pip install -r requirements-test.txt
 $ pytest tests/test.py
 ```
+
+## Provide documentation
+
+Copy the README files and add the relevant details for the specific model and use case, following the MAX standard. See other MAX models (e.g. [Object Detector](https://github.com/IBM/MAX-Object-Detector)) for examples. 
+
+More specifically, update the following README files:
+- Replace this `README.md` file with the completed `README-template.md` file
+- Complete the `assets/README.md` file with information about the model assets
+- Complete the `samples/README.md` file with information about the data samples and the demo notebook, if any
