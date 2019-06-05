@@ -166,3 +166,9 @@ To run the Flask API app in debug mode, edit `config.py` to set `DEBUG = True` u
 ### 5. Cleanup
 
 To stop the Docker container, type `CTRL` + `C` in your terminal.
+
+## Train this model
+
+> Remove this section if this model cannot be trained using custom data. Refer to https://github.ibm.com/CODAIT/max-model-training for details on how to enable a model for custom training.
+
+Follow [these instructions](training/README.md) to train this model using your own data.
