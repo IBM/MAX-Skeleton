@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.com/IBM/[MODEL REPO NAME].svg?branch=master)](https://travis-ci.com/IBM/[MODEL REPO NAME]) [![Website Status](https://img.shields.io/website/http/[MODEL DOCKER TAG].max.us-south.containers.appdomain.cloud/swagger.json.svg?label=api+demo)](http://[MODEL DOCKER TAG].max.us-south.containers.appdomain.cloud/)
 
+[<img src="docs/deploy-max-to-ibm-cloud-with-kubernetes-button.png" width="400px">](http://ibm.biz/max-to-ibm-cloud-tutorial)
+
 # IBM Developer Model Asset Exchange: [MODEL NAME]
 
 > This file contains the README template for a new model for Model Asset Exchange.
@@ -16,12 +18,25 @@ This repository contains code to instantiate and deploy a [MODEL NAME].
 The model is based on the [ADD OPEN SOURCE MODEL]([LINK TO MODEL]). The model files are hosted on
 [IBM Cloud Object Storage]([LINK TO SPECIFIC SOFTLAYER LOCATION]).
 The code in this repository deploys the model as a web service in a Docker container. This repository was developed
-as part of the [IBM Developer Model Asset Exchange](https://developer.ibm.com/exchanges/models/).
+as part of the [IBM Developer Model Asset Exchange](https://developer.ibm.com/exchanges/models/) and the public API is powered by [IBM Cloud](https://ibm.biz/Bdz2XM).
 
 ## Model Metadata
 | Domain | Application | Industry  | Framework | Training Data | Input Data Format |
 | ------------- | --------  | -------- | --------- | --------- | -------------- | 
 | [INSERT DOMAIN] | [INSERT APPLICATION] | [INSERT INDUSTRY] | [INSERT FRAMEWORK] | [INSERT TRAINING DATA] | [INSERT INPUT DATA FORMAT] |
+
+## Benchmark
+
+The predictive performance of the model can be characterized by the benchmark table below.
+
+_Note: The performance of a model is not the only significant metric. The level of bias and fairness incorporated in the model are also of high importance. Learn more by reading up on the [AI Fairness 360 open source toolkit](http://ibm.biz/AI_Fairness_360)._
+
+
+
+|  | [DATASET 1] | [DATASET 2]   | [DATASET 3]  |
+| -------- | --------  | -------- | --------- |
+| [METRIC 1] | [VALUE] | [VALUE] | [VALUE] |
+| [METRIC 2] | [VALUE] | [VALUE] | [VALUE] |
 
 ## References
 
@@ -72,6 +87,8 @@ $ kubectl apply -f https://github.ibm.com/CODAIT/[MODEL REPO NAME]/raw/master/[M
 ```
 
 The model will be available internally at port `5000`, but can also be accessed externally through the `NodePort`.
+
+A more elaborate tutorial on how to deploy this MAX model to production on [IBM Cloud](https://ibm.biz/Bdz2XM) can be found [here](http://ibm.biz/max-to-ibm-cloud-tutorial).
 
 ## Run Locally
 
