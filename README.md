@@ -17,7 +17,7 @@ Clone the `MAX-skeleton` repository locally. In a terminal run the following com
 
     $ git clone https://github.com/IBM/MAX-Skeleton
 
-The project files are structured into 4 main parts: model, api, assets, and samples. The `model` directory will contain code used for loading the model and running the predictions. The `api` directory contains code to handle the inputs and outputs of the MAX microservice. The `assets` directory will contain model assets, whereas the `samples` directory will contain sample data and notebooks for the user to try the service.
+The project files are structured into three main parts: model, api, and samples. The `model` directory will contain code used for loading the model and running the predictions. The `api` directory contains code to handle the inputs and outputs of the MAX microservice. The `samples` directory will contain sample data and notebooks for the user to try the service.
 
 Example:
 ```
@@ -28,7 +28,6 @@ Example:
   api/
     metadata.py
     predict.py
-  assets/
 ```
 
 ### 2. Modify the Dockerfile
@@ -168,5 +167,4 @@ Copy the README files and add the relevant details for the specific model and us
 
 More specifically, update the following README files:
 - Replace this `README.md` file with the completed `README-template.md` file
-- Complete the `assets/README.md` file with information about the model assets
 - Complete the `samples/README.md` file with information about the data samples and the demo notebook, if any
