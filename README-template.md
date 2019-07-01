@@ -10,7 +10,7 @@ Most sections that need to be updated are either marked in brackets or reference
 Some helpful hints are also included in comment blocks like this one. Please remember to delete the 
 comment blocks before publishing.
 
-> Don't forget to update `assets/README.md` and `samples/README.md` as well.
+> Don't forget to update `samples/README.md` as well.
 
 This repository contains code to instantiate and deploy a [MODEL NAME].
 [ADD A DESCRIPTION OF THE MODEL HERE - see other MAX models for examples]
@@ -136,14 +136,14 @@ The API server automatically generates an interactive Swagger documentation page
 
 [INSERT DESCRIPTION OF HOW TO USE MODEL ENDPOINT]
 
-> Example description for image upload models: Use the `model/predict` endpoint to load a test image (you can use one of the test images from the `assets` folder) and get predicted labels for the image from the API.
+> Example description for image upload models: Use the `model/predict` endpoint to load a test image (you can use one of the test images from the `samples` folder) and get predicted labels for the image from the API.
 
 ![INSERT SWAGGER UI SCREENSHOT HERE](docs/swagger-screenshot.png)
 
 You can also test it on the command line, for example:
 
 ```
-$ curl -F "image=@assets/[SAMPLE IMAGE]" -XPOST http://localhost:5000/model/predict
+$ curl -F "image=@samples/[SAMPLE IMAGE]" -XPOST http://localhost:5000/model/predict
 ```
 
 You should see a JSON response like that below:
