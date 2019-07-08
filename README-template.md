@@ -167,7 +167,7 @@ To run the Flask API app in debug mode, edit `config.py` to set `DEBUG = True` u
 
 To stop the Docker container, type `CTRL` + `C` in your terminal.
 
-## Train this model
+## Train this Model on Watson Machine Learning
 
 > Remove this section if this model cannot be trained using custom data. Refer to https://github.ibm.com/CODAIT/max-model-training for details on how to enable a model for custom training.
 
