@@ -171,4 +171,4 @@ To stop the Docker container, type `CTRL` + `C` in your terminal.
 
 > Remove this section if this model cannot be trained using custom data. Refer to https://github.ibm.com/CODAIT/max-model-training for details on how to enable a model for custom training.
 
-Whether it is fine tuning the model with transfer learning or training from scratch on a custom dataset, retraining the model is a power feature. Please follow the steps listed under the [training readme](training/README.md) to retrain the model on [Watson Machine Learning](https://www.ibm.com/cloud/machine-learning), a deep-learning as a service (DLaaS) offering of [IBM Cloud](https://ibm.biz/Bdz2XM).
+Whether it is fine-tuning the model with transfer learning or training from scratch on a custom dataset, retraining the model is a power feature. Please follow the steps listed under the [training readme](training/README.md) to retrain the model on [Watson Machine Learning](https://www.ibm.com/cloud/machine-learning), a deep-learning as a service (DLaaS) offering of [IBM Cloud](https://ibm.biz/Bdz2XM).
