@@ -37,7 +37,11 @@ COPY . /workspace
 
 RUN if [ "$use_pre_trained_model" = "true" ] ; then \
       # validate downloaded pre-trained model assets
-      md5sum -c md5sums.txt ; \
+      md5sum -c md5sums.txt && \
+      echo Ensuring that all model files are md5sum-checked... && \
+      echo Checked files: && export MD5_FILES="$(awk '{print $2}' md5sums.txt | xargs realpath | sort)" && echo "$MD5_FILES" && \
+      echo Model files: && export MODEL_FILES="$(find assets -type f | xargs realpath | sort)" && echo "$MODEL_FILES" && \
+      test "$MD5_FILES" = "$MODEL_FILES"
     else \
       # rename the directory that contains the custom-trained model artifacts
       if [ -d "./custom_assets/" ] ; then \
