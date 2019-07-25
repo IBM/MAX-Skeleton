@@ -51,8 +51,7 @@ def test_response():
 
     with open(file_path, 'rb') as file:
         file_form = {'image': (file_path, file, 'image/jpeg')}
-
-    r = requests.post(url=model_endpoint, files=file_form)
+        r = requests.post(url=model_endpoint, files=file_form)
 
     assert r.status_code == 200
     response = r.json()
