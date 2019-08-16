@@ -61,10 +61,10 @@ _Note: The performance of a model is not the only significant metric. The level 
 
 # Deployment options
 
-1. [Deploy from Docker Hub](#deploy-from-docker-hub)
-1. [Deploy on Red Hat OpenShift](#deploy-on-red-hat-openshift)
-1. [Deploy on Kubernetes](#deploy-on-kubernetes)
-1. [Run Locally](#run-locally)
+* [Deploy from Docker Hub](#deploy-from-docker-hub)
+* [Deploy on Red Hat OpenShift](#deploy-on-red-hat-openshift)
+* [Deploy on Kubernetes](#deploy-on-kubernetes)
+* [Run Locally](#run-locally)
 
 ## Deploy from Docker Hub
 
@@ -79,7 +79,7 @@ If you'd rather checkout and build the model locally you can follow the [run loc
 
 ## Deploy on Red Hat OpenShift
 
-You can deploy the model-serving microservice on Red Hat OpenShift by following the GUI or CLI instructions in this tutorial, specifying `codait/[MODEL DOCKER TAG]` as the container image name.
+You can deploy the model-serving microservice on Red Hat OpenShift by following the GUI or CLI instructions [in this tutorial](https://developer.ibm.com/tutorials/deploy-a-model-asset-exchange-microservice-on-red-hat-openshift/), specifying `codait/[MODEL DOCKER TAG]` as the container image name.
 
 ## Deploy on Kubernetes
 
