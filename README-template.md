@@ -79,7 +79,7 @@ If you'd rather checkout and build the model locally you can follow the [run loc
 
 ## Deploy on Red Hat OpenShift
 
-You can deploy the model-serving microservice on Red Hat OpenShift by following the GUI or CLI instructions [in this tutorial](https://developer.ibm.com/tutorials/deploy-a-model-asset-exchange-microservice-on-red-hat-openshift/), specifying `codait/[MODEL DOCKER TAG]` as the image name.
+You can deploy the model-serving microservice on Red Hat OpenShift by following the instructions for the OpenShift web console or the OpenShift Container Platform CLI [in this tutorial](https://developer.ibm.com/tutorials/deploy-a-model-asset-exchange-microservice-on-red-hat-openshift/), specifying `codait/[MODEL DOCKER TAG]` as the image name.
 
 ## Deploy on Kubernetes
 
