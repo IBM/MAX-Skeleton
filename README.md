@@ -14,9 +14,9 @@ system.
 
 ### 1. Clone the skeleton
 Clone the `MAX-skeleton` repository locally. In a terminal run the following command:
-
-    $ git clone https://github.com/IBM/MAX-Skeleton
-
+```bash
+$ git clone https://github.com/IBM/MAX-Skeleton
+```
 The project files are structured into three main parts: model, api, and samples. The `model` directory will contain code used for loading the model and running the predictions. The `api` directory contains code to handle the inputs and outputs of the MAX microservice. The `samples` directory will contain sample data and notebooks for the user to try the service.
 
 Example:
@@ -41,7 +41,7 @@ Then, calculate and add the MD5 hashes of the files that will be downloaded to `
 of the files after any extraction (eg after un-taring or un-ziping).
 
 To calculate the MD5 sum of a file run:
-```
+```bash
 $ md5sum <FILE NAME>
 ```
 
@@ -54,7 +54,7 @@ the model is loaded is also placed here.
 There are also separate functions for pre-processing, predictions, and post-processing that need to be implemented. The  `MAXModelWrapper` base class has a default `predict` method that internally calls these pre-processing, prediction, and post-processing functions.
 The model metadata should also be defined here.
 
-```
+```python
 class ModelWrapper(MAXModelWrapper):
 
     MODEL_META_DATA = {
@@ -83,7 +83,7 @@ class ModelWrapper(MAXModelWrapper):
 
 The input and outputs requests are sent as JSON strings. We define the format of these requests using the `flask_restplus` package. In the skeleton we have the output response configured with the following schema:
 
-```
+```json
 {
     "predictions": [
         {
@@ -102,7 +102,7 @@ To define the input format for a prediction we use Flask-RESTPlus's request pars
 ### 5. Create MAXApp instance in `app.py`
 
 The following code is already in the skeleton, but you may need to manually add extra APIs if needed.
-```
+```python
 from maxfw.core import MAXApp
 from api import ModelMetadataAPI, ModelPredictAPI
 from config import API_TITLE, API_DESC, API_VERSION
@@ -128,7 +128,7 @@ Add required python packages to `requirements.txt`
 
 To build the docker image locally, run:
 
-```
+```bash
 $ docker build -t max-model .
 ```
 
@@ -138,7 +138,7 @@ If you want to print debugging messages make sure to set `DEBUG=True` in `config
 
 To run the docker image, which automatically starts the model serving API, run:
 
-```
+```bash
 $ docker run -it -p 5000:5000 max-model
 ```
 
@@ -148,7 +148,7 @@ The API server automatically generates an interactive Swagger documentation page
 
 Use the `model/predict` endpoint to load a test file and get a response from the API.
 
-```
+```bash
 $ curl -F "file=@<INPUT_FILE_PATH>" -XPOST http://localhost:5000/model/predict
 ```
 
@@ -156,7 +156,7 @@ $ curl -F "file=@<INPUT_FILE_PATH>" -XPOST http://localhost:5000/model/predict
 
 Install test required packages and run tests using `pytest`:
 
-```
+```bash
 $ pip install -r requirements-test.txt
 $ pytest tests/test.py
 ```
