@@ -19,13 +19,13 @@ from maxfw.core import MAX_API, PredictAPI
 from flask_restplus import fields
 from werkzeug.datastructures import FileStorage
 
-# Set up parser for input data (http://flask-restplus.readthedocs.io/en/stable/parsing.html)
+# Set up parser for input data <http://flask-restx.readthedocs.io/en/stable/parsing.html>
 input_parser = MAX_API.parser()
 # Example parser for file input
 input_parser.add_argument('file', type=FileStorage, location='files', required=True)
 
 
-# Creating a JSON response model: https://flask-restplus.readthedocs.io/en/stable/marshalling.html#the-api-model-factory
+# Creating a JSON response model: https://flask-restx.readthedocs.io/en/stable/marshalling.html#the-api-model-factory
 label_prediction = MAX_API.model('LabelPrediction', {
     'label_id': fields.String(required=False, description='Label identifier'),
     'label': fields.String(required=True, description='Class label'),
