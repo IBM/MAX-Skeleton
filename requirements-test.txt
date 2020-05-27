@@ -1,2 +1,4 @@
 pytest
 requests
+bandit
+flake8
