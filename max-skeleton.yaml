@@ -27,6 +27,6 @@ spec:
     spec:
       containers:
       - name: max-skeleton
-        image: codait/max-skeleton:latest
+        image: quay.io/codait/max-skeleton:latest
         ports:
         - containerPort: 5000
