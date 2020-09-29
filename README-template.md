@@ -58,7 +58,7 @@ _Note: The performance of a model is not the only significant metric. The level 
 
 * `docker`: The [Docker](https://www.docker.com/) command-line interface. Follow the [installation instructions](https://docs.docker.com/install/) for your system.
 * The minimum recommended resources for this model is [SET NECESSARY GB] Memory and [SET NECESSARY CPUs] CPUs.
-* If you are on x86_64/amd64, your CPU must support [AVX](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions) at the minimum. [Remove this item if it's not TensorFlow-based.]
+* If you are on x86-64/AMD64, your CPU must support [AVX](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions) at the minimum. [Remove this item if it's not TensorFlow-based.]
 
 # Deployment options
 
