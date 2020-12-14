@@ -1,4 +1,4 @@
-pytest
-requests
-bandit
-flake8
+pytest==6.1.2
+requests==2.25.0
+bandit==1.6.2
+flake8==3.8.4
